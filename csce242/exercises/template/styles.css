@@ -1,0 +1,48 @@
+/*structure */
+body{
+    /*background-color: aquamarine;*/
+    background: url(images/background-image.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: auto; /* center*/
+    padding: 5px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    box-shadow: 10px 10px green; 
+}
+header, footer{
+    background:rebeccapurple;
+    padding:5px;
+    color: white;
+}
+header h1{
+    text-align: center;
+}
+
+/* navigation*/
+#main-nav ul{
+    padding-left:0;
+
+}
+#main-nav li {
+    list-style-type: none; /*remove the bullets*/
+    display: inline-block;
+}
+#main-nav a {
+    color:white; /*change color of links */
+    text-decoration: none; /*remove the underline */
+    border-bottom: 1px solid transparent;
+}
+#main-nav a:hover {
+    color:crimson;
+    border-bottom: 1px solid crimson;
+}
+
+/* typography*/
+footer p{  /*space p means paragraph within footer*/
+    text-align: center;
+}
