@@ -1,0 +1,31 @@
+body{
+    background: url(images/background-nature.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    background-color: #486b00;
+    width: 75%;
+    margin: auto;
+    padding: 6px;
+    border: 1px solid #7d4427;
+    border-radius: 5px;
+    color:bisque;
+}
+h1{
+    text-align: center;
+    color:#7d4427
+}
+
+#nav li{
+    padding: 5px;
+}
+#nav a {
+    color:bisque; 
+    text-decoration: none; /*remove the underline */
+    border-bottom: 1px solid transparent;
+}
+#nav a:hover {
+    color:#3b2114;
+    border-bottom: 1px solid #3b2114;
+}

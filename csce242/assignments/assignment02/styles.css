@@ -10,6 +10,7 @@ body{
     padding: 6px;
     border: 1px solid #301f93;
     border-radius: 5px;
+    color:#301f93;
 }
 
 
@@ -24,6 +25,10 @@ header h1{
 main h2{
     text-align: center;
 }
+.indent{
+    text-indent: 10px;
+}
+
 /*Navigation*/
 #main-nav ul{
     padding-left: 0;
@@ -43,25 +48,46 @@ main h2{
     color:#27645b;
     border-bottom: 1px solid #27645b;
 }
-.images{ /*adding padding and boarder to the images */
+
+
+#images{ /*adding padding and boarder to the images */
     padding: 10px;
+    background-color: #6CB5F4;
+    width: 75%;
+    margin: auto;
+    padding: 6px;
+    border: 1px solid #301f93;
+    border-radius: 5px;
+    color:#301f93;
+
+    
     
  
 }
-.images img{
+/*images div */
+#images img{
     border: 1px solid #301f93;
     display:inline-block;
 }
 
+
 /* Table styling */
 
+h3{
+    text-align: center;
+}
 #table{
-    background-color: #6CDAF5;
+    background-color: #6CB5F4;
     border: 1px solid #301f93;
     color: #301f93;
     border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    padding: 6px;
+
 }
 #table th, td{
     border: 1px solid #301f93;
     text-align: center;
+    background-color: #6CDAF5;
 }
