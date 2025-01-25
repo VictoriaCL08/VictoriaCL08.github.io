@@ -74,6 +74,7 @@ body{
     .col1, .col1of3, .col1of4{
         flex: 1;
     }
+
     .col2of3, .col2of4{
         flex:2;
     }

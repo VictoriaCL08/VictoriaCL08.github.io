@@ -16,16 +16,32 @@ h1{
     text-align: center;
     color:#7d4427
 }
+#content h2{
+    text-align: center;
+    color:bisque
+}
 
+/*
 #nav li{
     padding: 5px;
 }
 #nav a {
     color:bisque; 
-    text-decoration: none; /*remove the underline */
+    text-decoration: none; remove the underline 
     border-bottom: 1px solid transparent;
 }
 #nav a:hover {
     color:#3b2114;
     border-bottom: 1px solid #3b2114;
+}*/
+
+/*Larger resolution*/
+@media(min-width: 900px) {
+    .assign-sect{
+        display: flex;
+    }
+    .assign-sect{
+        flex:1;
+    }
+
 }
