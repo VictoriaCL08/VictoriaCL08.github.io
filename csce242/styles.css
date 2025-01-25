@@ -1,46 +1,66 @@
+
+/* Styling */
+#main-header{
+    background-color:#486b00;
+    width: 75%;
+    margin: auto;
+    padding: 6px;    
+    border-radius: 5px;
+    color:bisque;
+    text-align:center;
+
+}
+#main-content, #main-footer{
+    background-color: #486b00;
+    padding: 5px;
+    border-radius: 5px;
+    color:bisque;
+    width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+}
+#main-footer, #main-content h2{
+    text-align:center;
+}
+
+.assignments{
+    background-color:bisque;
+    padding:5px;
+    margin:5px;
+    border-radius:5px;
+    color: #486b00;
+    display:block;
+}
+.assignment-image{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Typography */
 body{
     background: url(images/background-nature.jpg);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#content{
-    background-color: #486b00;
-    width: 75%;
-    margin: auto;
-    padding: 6px;
-    border: 1px solid #7d4427;
-    border-radius: 5px;
-    color:bisque;
-}
-h1{
-    text-align: center;
-    color:#7d4427
-}
-#content h2{
-    text-align: center;
-    color:bisque
-}
-
-/*
-#nav li{
-    padding: 5px;
-}
+/* Navigation */
 #nav a {
-    color:bisque; 
-    text-decoration: none; remove the underline 
-    border-bottom: 1px solid transparent;
+    text-decoration: none; 
 }
-#nav a:hover {
+.assignments:hover{
     color:#3b2114;
-    border-bottom: 1px solid #3b2114;
-}*/
+    background-color: rgb(220, 172, 112);
+}
 
 /*Larger resolution*/
-@media(min-width: 900px) {
-    .assign-sect{
+@media(min-width: 1200px) {
+    .flex-container, #nav{
         display: flex;
     }
-    .assign-sect{
+    .flex-container{
+        flex-wrap: wrap;
+    }
+    .assignments, #nav{
         flex:1;
     }
 
