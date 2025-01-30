@@ -17,7 +17,10 @@ body{
 header, footer{
     background:rebeccapurple;
     color: white;
+    position:relative;
+    padding:20px 0;
 }
+
 .idea{
     padding:5px;
 
@@ -31,7 +34,14 @@ header, footer{
     padding:5px;
     text-align:center;
     margin-top:20px;
+    position: relative;
 }
+.idea-img p{
+    padding:5px;
+    background-color: aquamarine;
+    color:white;
+}
+
 .gallary{
     background-color: bisque;
 }
@@ -49,25 +59,85 @@ header h1{
     text-align: center;
 }
 
+/*ANimations*/
+#animation-fun{
+    background-color:hotpink;
+    padding:20px;
+    height:200px;
+    margin-top:5px;
+    position:relative;
+}
+#ball{
+    height:30px;
+    width:30px;
+    background-color: white;
+    border-radius:30px;
+    animation-name: fun;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes fun {
+    0% {background-color:red;}
+    20% {background-color:orange;}
+    40% {background-color:yellow;}
+    60% {background-color:green;}
+    80% {background-color:blue;}
+    100% {background-color:purple;}
+}
+
+
+/*Playng with positioning */
+#main-logo{
+   /* position:absolute;  Position absolute based on first non-static box (can be window or whatever block it is in) - doesnot take up space before moving
+    top:100px; 
+    right:10px;*/
+     /*position:relative;Based on initial position - Initial position reserved in markup
+    top:50px;
+    left:10px;*/
+    position:absolute;
+    top:50px;
+    left:50px;
+
+}
+
+
 /* navigation*/
-#main-nav ul{
+#sub-nav{
+    position:absolute;
+    top:0;
+    right:5px;
+}
+
+#main-nav ul, #sub-nav ul{
     padding-left:0;
 
 }
-#main-nav li {
-    list-style-type: none; /*remove the bullets*/
-    background-color: darkslateblue;
-    text-align:center;
-    border-bottom: 1px solid white;
+#main-nav li, #sub-nav li{
+    list-style-type: none; /*remove the bullets*/   
+    text-align:center;      
+    border-bottom: 1px solid white;   
 }
-#main-nav a {
+
+#main-nav li{
+    background-color: darkslateblue;
+
+}
+#sub-nav li{
+    margin:0 5px;
+}
+
+#main-nav a, #sub-nav a {
     color:white; /*change color of links */
     text-decoration: none; /*remove the underline */
     border-bottom: 1px solid transparent;
 }
-#main-nav a:hover {
-    color:crimson;
-    border-bottom: 1px solid crimson;
+#main-nav a:hover, #sub-nav a:hover {
+
+    border-bottom: 1px solid white;
+}
+#main-nav a:hover{
+        color:crimson;
 }
 
 /* typography*/
@@ -107,6 +177,9 @@ that is different from smaller screens goes here */
     .node{
         flex-basis:30%;
     }
-
+    .idea-img p{
+        position:absolute;
+        bottom:0;
+    }
 
 }

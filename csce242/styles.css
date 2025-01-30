@@ -11,14 +11,20 @@
 
 }
 #main-content, #main-footer{
-    background-color: #486b00;
     padding: 5px;
     border-radius: 5px;
     color:bisque;
     width: 75%;
     margin-left:auto;
     margin-right:auto;
-    margin-top:5px;
+}
+#main-footer, .type{
+    background-color: #486b00;
+}
+
+.type{
+    padding: 10px;
+    margin:10px;
 }
 #main-footer, #main-content h2{
     text-align:center;
