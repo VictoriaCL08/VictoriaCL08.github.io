@@ -43,6 +43,9 @@
     margin-left:auto;
     margin-right:auto;
 }
+.nav{
+    max-width:33%;
+}
 /* Typography */
 body{
     background: url(images/background-nature.jpg);
@@ -50,7 +53,7 @@ body{
 }
 
 /* Navigation */
-#nav a {
+.nav a {
     text-decoration: none; 
 }
 .assignments:hover{
