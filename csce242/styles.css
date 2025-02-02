@@ -42,6 +42,10 @@
     text-align:center;
     margin-left:auto;
     margin-right:auto;
+    max-width:max-content;
+}
+.nav{
+    height:390px;
 }
 
 /* Typography */
