@@ -67,8 +67,17 @@ header h1{
 }
 
 .sad {
-    color:purple;
-    background-color: aquamarine;
+    background-color: blue;
+    color:navy;
+}
+
+.happy{
+    background-color: pink;
+    color:deeppink;
+}
+
+.hidden{
+    display:none;
 }
 
 /*ANimations*/

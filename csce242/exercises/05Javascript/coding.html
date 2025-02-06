@@ -29,17 +29,37 @@
                 </nav>
             </header>
             <main class="columns">
-               <section>
-                <h3>write to a paragraph</h3>
-                <button id="btn-click-me">CLick Me</button>
-                <p id="result"></p>
+               <section class="one">
+                    <h3>write to a paragraph</h3>
+                    <button id="btn-click-me">CLick Me</button>
+                    <p id="result"></p>
                </section>
                
-               <section>
-                <h3>color a paragraph</h3>
-                <button id=btn-color>Color below</button>
-                <p id="message">Hello</p>
+               <section class="one">
+                    <h3>color a paragraph</h3>
+                    <button id=btn-color>Color below</button>
+                    <p id="message">Hello</p>
                </section>
+
+               <section class="columns one">
+                    <div>
+                        <button id="btn-happy">Be happy</button>
+                        <button id="btn-sad">Be sad</button>
+                        <button id="btn-clear">clear</button>
+                    </div>
+                    <p id="display" class="hidden"> </p>
+               </section>
+
+               <section class="one">
+                <h3>Emotions</h3>
+                <p>
+                    <label for="txt-emotion">Enter Feeling</label>
+                    <input type="text" id="txt-emotion">
+                </p>
+                <p id="emotion-message"></p>
+
+               </section>
+
             </main>
             <footer>
                 <p>&copy; myname</p>
