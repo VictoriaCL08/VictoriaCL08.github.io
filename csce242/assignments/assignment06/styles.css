@@ -1,0 +1,93 @@
+
+/*structure */
+:root{
+    --color: 
+}
+
+body{
+    background-color: #f1f2e9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header h1{
+    color: #5d878c;
+    text-align:center;
+}
+#header h2{
+  color: #d98282; 
+  text-align:center;   
+}
+#footer{
+    color:#5d878c;
+    text-align: center;
+}
+
+.section{
+    background-color: #f2f0d5;
+    color:#5d878c;
+    border: 1px solid #5d878c;
+    border-radius: 3px;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+}
+.section h2{
+    text-align:center;
+}
+
+.hidden{
+    display:none;
+}
+
+#display-hello{
+    text-align:left;
+    line-height: 1px;
+    
+}
+
+
+/* all code with the class name .star is from https://www.w3schools.in/css3/shapes  */
+.star {
+    position: relative;
+    display: inline-block; /* Allows for block properties but flow inline */
+    width: 0; height: 0; /* Collapses the main element to use borders for shape */
+    margin-left: 0.9em; margin-right: 0.9em; margin-bottom: 1.2em; 
+    border-right: 0.3em solid transparent; 
+    border-bottom: 0.7em solid #000000; /* Base triangle of the star */
+    border-left: 0.3em solid transparent;
+    font-size: 3rem; /* Determines scale */
+}
+.star:before,
+.star:after {
+    content: ""; 
+    display: block;
+    width: 0; height: 0; /* Use borders to form the triangles */
+    position: absolute; 
+    top: 0.6em; left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid #000000;
+    border-left: 1em solid transparent;
+}
+
+.star:after {
+    transform: rotate(35deg); /* Rotates the after triangle to position it */
+}
+
+.star:before {
+    transform: rotate(-35deg); /* Rotates the before triangle to position it */
+}
+
+
+@media only screen and (min-width: 768px){
+    .columns{
+        display: flex;
+    }
+    .one{
+        flex:1; 
+    }
+    #main-content{
+        width:70%;
+        margin:auto;
+    }
+  
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>  <!--Recreating the PageLayout assignment-->
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Assignment 6</title>
+    </head>
+    <body id="main-content">
+        <header id="header">
+            <h1> Assignment 6</h1>
+            <h2>Introduction to JavaScript</h2>
+        </header>
+        <main class="columns">
+            
+            <section id="btn-hello" class="one section">
+                <h2>Say Hello</h2>
+                <div id="display-hello">
+                </div>
+                
+            </section>
+
+            <section class="one section">
+                <h2>Pick a Color</h2>
+                <div id="color-picker"> <!--Code based on https://www.youtube.com/watch?v=1INseXMXuvE-->
+                    <input type="color" id="color">
+                    <label for="color" id="color-output"></label> 
+                </div>
+                <div class="star">
+                </div>
+            </section>
+
+
+            <section class="one section">
+                <h2>Image change</h2>
+                <div id="image-change">
+                    <img src="images/image-1.png" id="img1">
+                    <img src="images/image-2.png" id= "img2" class="hidden">
+                </div>
+                 
+
+            </section>
+
+        </main>
+        <footer id="footer">
+            &copy VictoriaCL08.com
+        </footer>
+    <script src="script.js"></script> <!-- Linking to javascript - link on last line of body+ -->
+    </body>
+
+</html>

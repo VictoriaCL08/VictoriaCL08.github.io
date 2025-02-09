@@ -15,14 +15,6 @@ document.getElementById("btn-color").onclick = () =>{
     messageP.classList.toggle("sad");
 }
 
-//happy scrip
-document.getElementById("btn-happy").onclick = () =>{
-    const displayP=document.getElementById("display");
-    displayP.classList.remove("hidden");
-    displayP.classList.add("happy");
-    displayP.innerHTML="Good Times";
-};
-
 
 //sad script
 document.getElementById("btn-sad").onclick = () =>{
@@ -31,6 +23,17 @@ document.getElementById("btn-sad").onclick = () =>{
     displayP.classList.add("sad");
     displayP.innerHTML="Bad Times";
 };
+
+//happy script
+document.getElementById("btn-happy").onclick = () =>{
+    const displayP=document.getElementById("display");
+    displayP.classList.remove("hidden");
+    displayP.classList.add("happy");
+    displayP.innerHTML= "Good Times";
+};
+
+
+
 
 //clear
 document.getElementById("btn-clear").onclick = () =>{
@@ -49,7 +52,7 @@ document.getElementById("txt-emotion").onkeyup = (event) =>{
     document.getElementById("emotion-message").innerHTML = 
     "YOu are feeling " + event.currentTarget.value;
 
-}
+};
 
 
 
