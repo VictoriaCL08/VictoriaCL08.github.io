@@ -14,12 +14,8 @@ document.getElementById("image-change").onclick = () => {
     displayI2.classList.toggle("hidden");
 };
 ////////////////////   Pick a Color   /////////////////////////////
-////////////  Pick a Color   ////////////////////
-/*addEventListener("input", (event) => {
+document.getElementById("color-picker").onclick = (event) => {
     const colorPicker = document.querySelector("input");
-    const colorOutput = document.querySelector("label");
-    colorOutput.innerText = colorPicker.value;
-    navigator.clipboard.writeText(colorPicker.value);
-    document.getElementById("color-picker").style.background("#000000");
+    document.getElementById("star").setAttribute("fill", colorPicker.value);
 
-});*/
+};

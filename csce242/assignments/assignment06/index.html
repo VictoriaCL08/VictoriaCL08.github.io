@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>  <!--Recreating the PageLayout assignment-->
+<html>
     <head>
         <link rel="stylesheet" href="styles.css">
         <title>Assignment 6</title>
@@ -21,11 +21,13 @@
             <section class="one section">
                 <h2>Pick a Color</h2>
                 <div id="color-picker"> <!--Code based on https://www.youtube.com/watch?v=1INseXMXuvE-->
-                    <input type="color" id="color">
-                    <label for="color" id="color-output"></label> 
+                    <input type="color">
+                    <label for="color"></label>
                 </div>
-                <div class="star">
-                </div>
+                <svg height="150" width="165">
+                    <polygon points ="90,5 30,120 165,50 15,50 150,120" 
+                    id="star"/>
+                </svg>
             </section>
 
 
