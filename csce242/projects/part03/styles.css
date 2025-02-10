@@ -2,7 +2,7 @@
     --header-footer-color:#6b6b6b;
     --background-color:#CCCCCC;
     --main-nav-color:##6b6b6b;
-    --section-color-1:#959595;
+    --section-color-1:#b1adad;
     --section-color-2:#666666;
     --table-color-1:#7a7a7a;
     --table-color-2:#cccccc;
@@ -55,7 +55,7 @@ body{
 
    width: 100%
 }
-#main-section, #records {
+#main-section, #records, #contact-us {
     width:var(--width);
     margin-left:auto;
     margin-right:auto;
@@ -83,14 +83,56 @@ body{
     font-size: 20px;
 }
 /******************************************* Schedule Page **********************************/
+
 .table-sched img{
     margin:5px;
+    max-width:80%;
 }
 .table-sched td{
     padding:5px;
 }
 .weekly-sched{
     margin: 15px 0 15px;
+    text-align:center;
+
+}
+#semester-sched{
+
+    background-color: var(--section-color-1);
+    border-radius: 5px;
+    text-align:center;
+    margin: 10px;
+    padding: 5px;
+}
+.sched-title{
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+.sched-title h3{
+    margin: 15px 0 15px 0;
+}
+#semester-sched a{
+    color: var(--text-color);
+    display: inline-block;
+}
+.event a{
+    text-decoration: none;
+}
+
+.event{
+    background-color: var(--section-color-2);
+    width: 30%;
+    height: 250px;
+    text-align:center;
+    padding: 5px;
+    margin: 9px;
+    border-radius: 5px;
+    text-align:center; 
+}
+.event h3{
+    border-bottom: none;
 }
 
 
@@ -181,6 +223,38 @@ body{
 }
 
 
+/*************************************** contact us *****************************/
+#contact-us p{
+    height: 50px;
+}
+.contact-title h3{
+    text-align: center;
+    font-size: 24px;
+}
+.contact-form{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.contact-form h3{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+.textbox, .textbox2{
+    width: 100%;
+}
+.textbox2{
+    min-height: 150px;
+}
+.btn button{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 100px;
+    height: 25px;
+}
+
 /***************************  Footer  **************************/
 .footer-styles{
     width:var(--width);
@@ -234,6 +308,9 @@ body{
     .columns{
         display:flex;
     }
+    .wrap{
+        flex-wrap: wrap;
+    }
     .one, #main-nav li{
         flex:1;
     }
@@ -250,4 +327,5 @@ body{
     .five{
         flex:5;
     }
+
 }

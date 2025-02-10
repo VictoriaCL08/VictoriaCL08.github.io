@@ -67,7 +67,7 @@ body{
 
 /*Larger resolution*/
 @media(min-width: 1200px) {
-    .flex-container, #nav{
+    .flex-container{
         display: flex;
     }
     .nav{
@@ -76,7 +76,7 @@ body{
     .flex-container{
         flex-wrap: wrap;
     }
-    .assignments, #nav{
+    .assignments{
         flex:1;
     }
 
