@@ -1,5 +1,5 @@
 :root{
-    --header-footer-color:#6b6b6b;
+    --header-footer-color:#7a7575;
     --background-color:#CCCCCC;
     --main-nav-color:##6b6b6b;
     --section-color-1:#b1adad;
@@ -103,6 +103,7 @@ body{
     text-align:center;
     margin: 10px;
     padding: 5px;
+    text-align:center;
 }
 .sched-title{
     padding: 5px;
@@ -119,8 +120,11 @@ body{
 }
 .event a{
     text-decoration: none;
+    text-align:center;
 }
-
+.img-sched{
+    max-width: 95%;
+}
 .event{
     background-color: var(--section-color-2);
     width: 30%;
@@ -134,18 +138,38 @@ body{
 .event h3{
     border-bottom: none;
 }
-
-
-/*********************************** Past Events *************************/
-.past-events h3{
-    margin: 5px;
-    padding: 5px 0 5px 10px;
-    border-bottom: solid 1px var(--section-color-2);
-    font-size: 20px;
+.center{
     text-align:center;
 }
 
+/*********************************** Past Events and schedule events*************************/
+.past-events h3{
+    padding: 5px 0 5px 10px;
+    font-size: 20px;
+}
+.past-events{
+    text-align: center;
+}
+.past-events img{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px;
+    max-width: var(--width);
+}
+.past-events p{
+    text-align: left;
+    padding: 10px;
+}
 
+/*.btn{
+    text-align: right;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: var(--section-color-1);
+    border-radius: 5px;
+}*/
 
 /*********************** CLub records Page *****************************/
 #records h2{
@@ -303,8 +327,23 @@ body{
     color: var(--hover-color);
 }
 
+#toggle-nav div{
+    width: 25px;
+    height: 2px;
+    background-color: var(--background-color);
+    margin: 6px 2px;
+}
+.hide-small{
+    display:none;
+}
 /***********************************    Larger resolutions   **************************************/
 @media only screen and (min-width: 800px){
+    #toggle-nav{
+        display: none;
+    }
+    .hide-small{
+        display:flex
+    }
     .columns{
         display:flex;
     }
