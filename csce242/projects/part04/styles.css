@@ -1,3 +1,22 @@
+/*** 
+Things to fix:
+all pages
+    fix font type and size
+    add toggle memu
+index page
+    implement carosel slide show thing at top
+    reformat slideshow to give margins
+schedule page
+    make words wrap in tables on small resolution so pic sixe is the same
+    make the events shrink or grow a little to be centered in "events this semester" section
+past events
+    center pictures
+About Us
+    more space between each officer section in about us on small resolution
+COntact us
+    align text boxes better in larger resolution
+    make footer stick to bottom on larger resolution
+***/
 :root{
     --header-footer-color:#7a7575;
     --background-color:#CCCCCC;
@@ -303,7 +322,8 @@ body{
 }
 
 /************************************  Navigation  ***********************************/
-#main-nav{
+#toggle-nav{
+    display:flex;
     text-align:right;
 }
 #main-nav ul{
@@ -326,8 +346,24 @@ body{
 
     color: var(--hover-color);
 }
+
+#toggle-nav div{
+    width: 25px;
+    height: 2px;
+    background-color: var(--background-color);
+    margin: 6px 2px;
+}
+.hide-small{
+    display:none;
+}
 /***********************************    Larger resolutions   **************************************/
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 900px){
+    #toggle-nav{
+        display: none;
+    }
+    .hide-small{
+        display:flex
+    }
     .columns{
         display:flex;
     }
