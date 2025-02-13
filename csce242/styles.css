@@ -23,8 +23,9 @@
 }
 
 .type{
-    padding: 10px;
-    margin:10px;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius:5px;
 }
 #main-footer, #main-content h2{
     text-align:center;

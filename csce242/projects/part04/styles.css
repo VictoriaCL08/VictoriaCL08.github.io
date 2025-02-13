@@ -322,10 +322,6 @@ body{
 }
 
 /************************************  Navigation  ***********************************/
-#toggle-nav{
-    display:flex;
-    text-align:right;
-}
 #main-nav ul{
     padding-left:0;
     margin-top:3%;
@@ -350,9 +346,16 @@ body{
 #toggle-nav div{
     width: 25px;
     height: 2px;
-    background-color: var(--background-color);
-    margin: 6px 2px;
+    background-color: var(--text-color);
+    margin: 6px 0;
 }
+#toggle-nav{
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
 .hide-small{
     display:none;
 }
@@ -362,7 +365,7 @@ body{
         display: none;
     }
     .hide-small{
-        display:flex
+        display:flex;
     }
     .columns{
         display:flex;
