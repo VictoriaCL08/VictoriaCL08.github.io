@@ -5,14 +5,16 @@
     --teal-color: #5d878c;
     --beige-color: #f1f2e9;
     --light-peach: #dfb3b3;
+    --heart-color:white;
 }
 body{
     background-color: var(--beige-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 #main-section{
-    margin:auto;
+    margin: 15px;
 }
+
 #header h1{
     color: #5d878c;
     text-align:center;
@@ -32,7 +34,6 @@ body{
     padding:5px;
     display: block;
     text-align:center;
-    max-width:400px;
     margin:auto;
 }
 .section h2{
@@ -50,6 +51,26 @@ body{
 
 .hidden, .hide-small{
     display:none;
+}
+
+.travel-div{
+    min-height: 200px;
+}
+
+/*    Color chooser    Code for heart shape from https://verpex.com/blog/website-tips/css-shapes-the-heart*/
+#heart {
+    width: 200px;
+    aspect-ratio: 1;
+    background:
+     radial-gradient(at 70% 31%,var(--heart-color) 29%,#0000 30%),
+     radial-gradient(at 30% 31%,var(--heart-color) 29%,#0000 30%),
+     linear-gradient(var(--heart-color) 0 0) bottom/100% 50% no-repeat;
+    clip-path: polygon(-43% 0,50% 91%, 143% 0);
+    margin: 15px;
+  }
+
+#color-buttons{
+    text-align:left;
 }
 
 /*Navigation              ************************************/
@@ -71,10 +92,7 @@ body{
     margin-bottom: 10px;
     margin-left: 5px;
 }
-#toggle-nav{
-    max-width:400px;
-    margin:auto;
-}
+
 #main-nav{
     width: 200px;
     margin:auto;
@@ -101,11 +119,12 @@ body{
 #main-nav a:hover {
     border-bottom:1px solid var(--peach-color);
     color:var(--peach-color);
+    cursor: pointer;
 }
 
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 600px){
     #triangle-up, #triangle-down{
         display: none;
     }
@@ -115,11 +134,12 @@ body{
     .one{
         flex:1; 
     }
-    #main-section{
-        width:60%;
-        margin:auto
-    }
-    #main-nav li:not(:last-child){
+ 
+    #main-nav div:not(:last-child){
         border-right: 1px solid var(--teal-color);
+    }
+    #width{
+        width: 400px;
+        margin: auto;
     }
 }
