@@ -2,7 +2,7 @@
 Things to fix:
 all pages
     fix font type and size
-    add toggle memu
+    make nav look better on small resolutions
 index page
     implement carosel slide show thing at top
     reformat slideshow to give margins
@@ -62,6 +62,11 @@ body{
 /**************************** Main ***********************/
 
 /****  Index ******************/
+/*Carosel*/
+/*Code is from Geeks for Geeks: https://www.geeksforgeeks.org/create-an-autoplay-carousel-using-html-css-and-javascript/*/
+
+
+
 .slideshow{
     width:100%;
     text-align: center;
@@ -74,6 +79,7 @@ body{
 
    width: 100%
 }
+/*main part of homepage */
 #main-section, #records, #contact-us {
     width:var(--width);
     margin-left:auto;
@@ -360,7 +366,7 @@ body{
     display:none;
 }
 /***********************************    Larger resolutions   **************************************/
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 950px){
     #toggle-nav{
         display: none;
     }

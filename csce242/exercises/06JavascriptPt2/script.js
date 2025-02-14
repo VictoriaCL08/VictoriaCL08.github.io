@@ -60,7 +60,50 @@ document.getElementById("btn-choose-color").onclick = () => {
         mood="annoyed";
     }
     document.getElementById("color-message").innerHTML = 
-        `You chose ${color}, you are feeling ${mood},`; //use backtick (button above tab) to be able to add var in text instead of concatanating
-
+        `You chose ${color}, you are feeling ${mood},`; //use backtick (button above tab) to be able to add var in text instead of concatanatin
      
-}
+};
+////////////// ball
+let pos = 0;
+const changeCirclePos = (increment) => {
+    pos+= increment;
+    document.getElementById("circle").style.setProperty("top", pos + "px");
+};
+
+document.getElementById("btn-down").onclick = () =>{
+    
+    changeCirclePos(10);
+
+};
+
+document.getElementById("btn-up").onclick = () =>{
+    changeCirclePos(-10);
+};
+
+document.getElementById("btn-pick-color").onchange = (event) =>{  //two different ways to do color picker
+ 
+    const color = event.currentTarget.value;
+    //document.getElementById("circle").style.setProperty("background", color);   //way number 1
+    document.getElementById("circle").style.setProperty("--circle-color", color);
+
+};
+
+
+//////// Donation part and thermometer
+const goal = 1000;
+let donations=0;
+document.getElementById("goal-display").innerHTML =  `Goal: $${goal}`;
+
+document.getElementById("btn-add-donation").onclick = () =>{
+    const donationAmt = document.getElementById("txt-donation").value;
+    if (isNaN(donationAmt) || donationAmt<= 0 ){
+        document.getElementById("donation-error").classList.remove("hidden");
+        return;
+    }
+    document.getElementById("donation-error").classList.add("hidden");
+    donations += donationAmt;
+    donationPercent = donations / goal *100;
+    document.getElementById("donation-message").innerHTML = `$${goal - donations} to go!`;
+    document.getElementById("thermometer").style.setProperty("--donation-percent", donationPercent+ "%");
+
+} ;
