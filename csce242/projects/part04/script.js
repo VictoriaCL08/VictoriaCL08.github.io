@@ -3,6 +3,10 @@ document.getElementById("toggle-nav").onclick = () => {
     document.getElementById("nav-items").classList.toggle("hide-small");
 };
 
+
+//schedule event page
+
+
 /*//carosel 
 window.onload = function () {
     let slides = 
