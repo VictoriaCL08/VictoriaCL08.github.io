@@ -22,12 +22,12 @@ The black on maroon isn't really enough contrast.
 
 On the Practice page let's center the events, and make them larger to fill more of the space.
 
-In the About Us page let's add background colors to the different sections to make the information not look like it's floating.
 ***/
 :root{
     --header-footer-color:black;
     --background-color: #cccccc;
-    --main-nav-color:#6b6b6b;
+    --about-us-color:#b7b7b7;
+    --about-us-shadow-color:#6b6b6b;
     --section-color-1: #73000a;
     --section-color-2:#cccccc;
     --table-color-1:rgb(115, 0, 10, 0.5);
@@ -292,6 +292,10 @@ body{
 .about-us{
     margin-top: 25px;
     margin-bottom: 25px;
+    background: var(--about-us-color);
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px var(--about-us-shadow-color);
+    
 }
 .about-us-p{
     padding:5px;

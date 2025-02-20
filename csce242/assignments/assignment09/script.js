@@ -9,6 +9,7 @@ document.getElementById("btn-stairs").onclick = () => {
     }
     document.getElementById("btn-climb").classList.remove("hidden");
     document.getElementById("left").classList.remove("hidden");
+    document.getElementById("right").classList.add("hidden");
 }; 
 document.getElementById("btn-climb").onclick = () => {
     document.getElementById("right").classList.toggle("hidden");
