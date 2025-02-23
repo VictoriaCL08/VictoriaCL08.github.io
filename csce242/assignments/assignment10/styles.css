@@ -2,8 +2,7 @@
     --peach-color: #d98282;
     --teal-color: #5d878c;
     --beige-color: #f1f2e9;
-    --light-peach: #dfb3b3;
-    --heart-color:white;
+    --light-peach: #e8d5d5;
 }
 body{
     background-color: var(--beige-color);
@@ -31,7 +30,6 @@ body{
     border-radius: 3px;
     padding:5px;
     display: block;
-    width: 100px;
     text-align:center;
     margin:auto;
     position: relative;
@@ -43,4 +41,40 @@ body{
 .hidden{
     display:none;
 }
+#image-list ul, .last-section a{
+    color: var(--teal-color);
+    list-style: none;
+    padding-left: 0;
+}
+.last-section{
+    color: var(--peach-color);
+}
+#image-list li{
+    margin: 10px 0;
+    cursor: pointer;
+}
+#popup img{
+    width: 50%;
+    margin: 10px;
+}
+#popup{
+     background-color: var(--light-peach);
+     box-shadow: 8px 8px  5px var(--peach-color);
+     position: absolute;
+     top: 25%;
+     left: 35%;
+     width: 30%;
+}
+#close{
+    color:var(--peach-color);
+    position:absolute;
+    right: 5px;   
+    cursor: pointer;
+}
 
+#popup p{
+    color: var(--peach-color);
+    font-weight: bold;
+    padding-top: 5px;
+    margin: 5px;
+}
