@@ -1,7 +1,7 @@
 /*** 
 Things to fix:
 all pages
-    fix font type and size
+    fix font type and size 
     make nav look better on small resolutions
     fix padding for words
 index page
@@ -13,14 +13,7 @@ schedule page
 COntact us
     align text boxes better in larger resolution
     make footer stick to bottom on larger resolution
-    add dropdown menu
-
-
-Love the home page.
-
-The black on maroon isn't really enough contrast.
-
-On the Practice page let's center the events, and make them larger to fill more of the space.
+    add dropdown FAQ menu
 
 ***/
 :root{
@@ -37,6 +30,7 @@ On the Practice page let's center the events, and make them larger to fill more 
     --heading-text-color:white;
     --text-color: black;
     --hover-color:#CCCCCC;
+    --light-text-color: #b7b7b7;
 }
 
 body{
@@ -47,6 +41,10 @@ body{
 
 .hidden{
     display: none;
+}
+
+.text-color{
+    color: var(--light-text-color);
 }
 
 /*************************************** Header ************************/
@@ -78,41 +76,6 @@ body{
 
 /****  Index ******************/
 /*Carosel*/
-/*Code is from Geeks for Geeks: https://www.geeksforgeeks.org/create-an-autoplay-carousel-using-html-css-and-javascript/*/
-.carousel {
-    position: relative;
-    width: 800px;
-    height: 600px;
-    overflow: hidden;
-    background-color: #cdcdcd;
-}
-
-.carousel-item .slide-image {
-    width: 270px;
-    height: 160px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.carousel-item {
-    position: absolute;
-    width: 800px;
-    height: 600px;
-    border: none;
-    top: 0;
-    left: 100%;
-}
-
-.carousel-item.active {
-    left: 0;
-    transition: all 0.3s ease-out;
-}
-
-.carousel-item div {
-    height: 100%;
-}
-
-
 
 
 .slideshow{
@@ -207,10 +170,8 @@ body{
 }
 .event{
     background-color: var(--section-color-2);
-    width: 31%;
     text-align:center;
-    padding: 5px;
-    margin: 8px;
+    margin: 0.5%;
     border-radius: 5px;
     text-align:center; 
 }
@@ -220,9 +181,7 @@ body{
 .event h3{
     border-bottom: none;
 }
-.center{
-    text-align:center;
-}
+
 
 /*********************************** Past Events and schedule events*************************/
 .past-events h3{
@@ -406,7 +365,7 @@ body{
     list-style-type: none; /*remove the bullets*/   
     text-align:center;      
     background-color:var(--header-footer-color);
-    border-bottom: 1px solid var(--heading-text-color);  
+    /*border-bottom: 1px solid var(--heading-text-color); */
 }
 
 #main-nav a{
@@ -435,13 +394,18 @@ body{
 .hide-small{
     display:none;
 }
-/***********************************    Larger resolutions   **************************************/
+ /* small resolutions */
 @media only screen and (max-width: 949px){
     .about-us-p{
         max-width: 400px;
         margin: auto;
     }
+    #main-nav li{
+        text-decoration: underline;
+    }
 }
+
+/***********************************    Larger resolutions  **************************************/
 @media only screen and (min-width: 950px){
     #toggle-nav{
         display: none;
@@ -457,6 +421,9 @@ body{
     }
     .columns{
         display:flex;
+    }
+    .event{
+        width: 32.3%;
     }
     .wrap{
         flex-wrap: wrap;
@@ -479,3 +446,16 @@ body{
     }
 
 }
+
+/*medium resolutions */
+/*@media only screen and (min-width: 1200px){
+    .event{
+        width: 30.5%;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .event{
+        width: 31%;
+    }
+}*/
