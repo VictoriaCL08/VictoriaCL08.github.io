@@ -1,0 +1,126 @@
+:root {
+    --main-background-color:#CDECEF;
+    --primary-color:#2B91AD;
+    --gallery-color:#FFB58A;
+    --circle-color: black;
+    --donation-percent: 0%;
+}
+
+body {
+    background:var(--main-background-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#children-table{
+    border-collapse: collapse;
+}
+#children-table th, #children-table td{
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+#children-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+#children-table tr:hover{
+    background-color: var(--gallery-color);
+}
+
+#child-details{
+    margin: 5px;
+    border: 1px solid darkblue;
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+#child-details h3{
+    color: white;
+    text-align: center;
+}
+#child-details img{
+    max-width: 30%;
+    display: block;
+    margin: auto;
+}
+
+#toggle-nav div{ /******************8888 toggle menu ***********************/
+    width: 25px;
+    height: 2px;
+    background-color: var(--gallery-color);
+    margin:6px 0;
+}
+
+#main-nav ul{
+    padding-left:0;
+}
+
+#main-nav li{
+    list-style-type: none;  /* remove the bullets */
+    text-align: center;
+    border-bottom:1px solid white;
+}
+
+#main-nav li {
+    background:var(--gallery-color);
+    font-size:1.5em;
+}
+
+#main-nav a{
+    color:white;
+    text-decoration: none;  /* remove the underlines */
+    border-bottom:1px solid transparent;
+}
+
+#main-nav a:hover{
+    border-bottom:1px solid white;
+}
+
+#main-nav a:hover {
+    color:var(--primary-color);
+}
+.hidden, .hide-small{
+    display: none;
+}
+
+
+/*************** Dog section   */
+.dog{
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+}
+
+/* Larger screens */
+@media only screen and (min-width: 1200px) { 
+    #toggle-nav{
+        display:none;
+    }
+    #main-nav li {
+        flex:1;
+        border-bottom:0;
+    }
+
+    #main-nav li:not(:last-child) {
+        border-right: 1px solid white;
+    }
+
+
+    .hide-small {
+        display: flex;
+    }
+    #dog-list{
+        display:flex;
+    }
+    .dog{
+        flex: 1;
+    }
+
+    #children{
+        display: flex;
+    }
+    #children table, #children section{
+        flex: 1;
+    }
+}
