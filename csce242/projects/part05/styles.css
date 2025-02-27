@@ -404,6 +404,21 @@ body{
         text-decoration: underline;
     }
 }
+/************************* medium resolutions ***********************************/
+@media only screen and (min-width: 700px){
+    .columns{
+        display: flex;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    
+    .event{
+        width: 49%;
+    }
+}
+
+
 
 /***********************************    Larger resolutions  **************************************/
 @media only screen and (min-width: 950px){
