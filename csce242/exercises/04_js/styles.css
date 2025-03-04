@@ -261,6 +261,12 @@ footer p {
     .examples section:nth-child( even ) {
         background:var(--main-background-color);
     }
+    .brewery{
+        background-color: var(--gallery-color);
+        margin: 10px;
+        padding: 5px;
+    }
+
 }
 /* Larger screens */
 @media only screen and (min-width: 1200px) { 
