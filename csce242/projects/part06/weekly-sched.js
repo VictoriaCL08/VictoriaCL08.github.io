@@ -16,12 +16,22 @@ const showWeeklySched = async () =>{
     schedule.forEach((sched)=>{
         const tr = document.createElement("tr");
         
-        const
+        tr.append(addCol(sched.date_id));
+        tr.append(addCol(sched.route));
+        tr.append(addCol(sched.mileage));
+        tr.append(addCol(sched.track));
+        tr.append(addCol(sched.effort));
 
         table.append(tr);
+       
     });
 
 };
 
+const addCol = (col) =>{
+    const td = document.createElement("td");
+    td.innerText = col;
+    return td;
+}
 
 showWeeklySched();
