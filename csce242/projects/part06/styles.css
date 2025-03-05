@@ -126,15 +126,10 @@ body{
 }
 /******************************************* Schedule Page **********************************/
 
-.table-sched img{
-    margin:5px;
-    max-width:80%;
-
-}
-.table-sched td{
+#table-sched td{
     padding:5px;
 }
-.weekly-sched{
+#weekly-sched{
     margin: 15px 0 15px;
     text-align:center;
 
@@ -218,7 +213,7 @@ body{
     font-size: 24px;
     margin-bottom:5px;
 }
-.table, .table-sched{
+.table, #table-sched{
    
     border: 1px solid var(--text-color);
     color: var(--text-color);
@@ -229,12 +224,12 @@ body{
 
 }
 
-.table th, .table td, .table-sched th, .table-sched td {
+.table th, .table td, #table-sched th, #table-sched td {
     border: 1px solid var(--text-color);
     text-align: center;
 }
 
-.table tr:nth-child(odd), .table-sched tr:nth-child(2){
+.table tr:nth-child(odd), #table-sched tr:nth-child(2){
     background-color: var(--table-color-1);
 }
 .table tr:nth-child(even){

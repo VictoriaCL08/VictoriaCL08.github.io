@@ -1,5 +1,6 @@
 [
     {
+        "key_id": 1,
         "date_id": "Monday",
         "route": "Stadium",
         "mileage": "4-6 miles",
@@ -7,6 +8,7 @@
         "effort": "80%"
     },
     {
+        "key_id": 2,
         "date_id": "Tuesday",
         "route": "Track Workout",
         "mileage": "6x800 m",
@@ -14,6 +16,7 @@
         "effort": "70%"
     },
     {
+        "key_id": 3,
         "date_id": "Wednesday",
         "route": "Wheat",
         "mileage": "3-5 miles",
@@ -21,6 +24,7 @@
         "effort": "80%"
     },
     {
+        "key_id": 4,
         "date_id": "Thursday",
         "route": "Riverfront",
         "mileage": "4-8 miles",
@@ -28,6 +32,7 @@
         "effort": "90%"
     },
     {
+        "key_id": 5,
         "date_id": "Friday",
         "route": "Granby",
         "mileage": "3-4 miles",
