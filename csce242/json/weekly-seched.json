@@ -1,0 +1,37 @@
+[
+    {
+        "date_id": "Monday",
+        "route": "Stadium",
+        "mileage": "4-6 miles",
+        "track-workout": "2x100 m",
+        "effort": "80%"
+    },
+    {
+        "date_id": "Tuesday",
+        "route": "Track Workout",
+        "mileage": "6x800 m",
+        "track-workout": "6x150 m",
+        "effort": "70%"
+    },
+    {
+        "date_id": "Wednesday",
+        "route": "Wheat",
+        "mileage": "3-5 miles",
+        "track-workout": "3x300 m",
+        "effort": "80%"
+    },
+    {
+        "date_id": "Thursday",
+        "route": "Riverfront",
+        "mileage": "4-8 miles",
+        "track-workout": "3x50 m",
+        "effort": "90%"
+    },
+    {
+        "date_id": "Friday",
+        "route": "Granby",
+        "mileage": "3-4 miles",
+        "track-workout": "N/A",
+        "effort": "N/A"
+    }
+]
