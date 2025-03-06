@@ -152,10 +152,7 @@ body{
 .sched-title h3{
     margin: 15px 0 15px 0;
 }
-#semester-sched a{
-    color: var(--text-color);
-    display: inline-block;
-}
+
 .event a{
     text-decoration: none;
     text-align:center;

@@ -9,7 +9,46 @@
         "key_id": 2,
         "event_name": "Valentine's Cookie Run",
         "event_date": "2/14/2025",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/cookie-run.png"
+    },
+    {
+        "key_id": 3,
+        "event_name": "Charlotte Outdoor Invite",
+        "event_date": "2/22/2025",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/track-pic.png"
+    },
+    {
+        "key_id": 4,
+        "event_name": "4x4x48",
+        "event_date": "2/21/2025-2/22/25",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/night-4-4-48-img.png"
+    },
+    {
+        "key_id": 5,
+        "event_name": "David Go Invitational",
+        "event_date": "3/22/2025",
         "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/track-info-pic.png"
+    },
+    {
+        "key_id": 6,
+        "event_name": "Bulldog Invitational Weekend Trip",
+        "event_date": "3/28/2025",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/track-night-img.png"
+    },
+    {
+        "key_id": 7,
+        "event_name": "Palmetto Picnic",
+        "event_date": "TBD",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/palmetto-picnic.png"
+    },
+    {
+        "key_id": 8,
+        "event_name": "Track Banquet",
+        "event_date": "4/24/2025",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/banquet-img.png"
     }
+
+
+
 
 ]
