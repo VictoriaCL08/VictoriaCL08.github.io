@@ -1,3 +1,15 @@
 [
-    
+    {
+        "key_id": 1,
+        "event_name": "Track Info Meeting",
+        "event_date": "1/30/2025",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/track-info-pic.png"
+    },
+    {
+        "key_id": 2,
+        "event_name": "Valentine's Cookie Run",
+        "event_date": "2/14/2025",
+        "event_img": "https://victoriacl08.github.io/csce242/projects/part06/images/semester-events/track-info-pic.png"
+    }
+
 ]
