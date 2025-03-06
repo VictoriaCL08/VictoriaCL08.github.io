@@ -228,8 +228,7 @@ body{
     border: 1px solid var(--text-color);
     text-align: center;
 }
-
-.table tr:nth-child(odd), #table-sched tr:nth-child(2){
+ #weekly-sched-title, .table tr:nth-child(odd){
     background-color: var(--table-color-1);
 }
 .table tr:nth-child(even){
