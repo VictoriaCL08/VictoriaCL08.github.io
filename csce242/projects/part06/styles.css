@@ -4,6 +4,8 @@ all pages
     fix font type and size 
     make nav look better on small resolutions
     fix padding for words
+    fix nav so it goes to toggle sooner
+
 index page
     implement carosel slide show thing at top
     reformat slideshow to give margins
@@ -408,8 +410,21 @@ body{
     .event{
         width: 49%;
     }
-}
 
+
+    #toggle-nav{
+        display: none;
+    }
+    .about-us{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hide-small{
+        display:flex;
+    }
+}
 
 
 /***********************************    Larger resolutions  **************************************/

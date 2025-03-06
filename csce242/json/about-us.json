@@ -1,0 +1,42 @@
+[
+    {
+        "_id": 1,
+        "position": "XC President",
+        "name": "Carina Burdick",
+        "major": "Excercise Science",
+        "year": "Junior",
+        "home-town": "Irmo, SC",
+        "favorite-event": "1600 m",
+        "img": "images/about-us/xc-prez.png"
+    },
+    {
+        "_id": 2,
+        "position": "XC President",
+        "name": "Carina Burdick",
+        "major": "Excercise Science",
+        "year": "Junior",
+        "home-town": "Irmo, SC",
+        "favorite-event": "1600 m",
+        "img": "images/about-us/xc-prez.png"
+    },
+    {
+        "_id": 3,
+        "position": "XC President",
+        "name": "Carina Burdick",
+        "major": "Excercise Science",
+        "year": "Junior",
+        "home-town": "Irmo, SC",
+        "favorite-event": "1600 m",
+        "img": "images/about-us/xc-prez.png"
+    },
+    {
+        "_id": 4,
+        "position": "XC President",
+        "name": "Carina Burdick",
+        "major": "Excercise Science",
+        "year": "Junior",
+        "home-town": "Irmo, SC",
+        "favorite-event": "1600 m",
+        "img": "images/about-us/xc-prez.png"
+    }
+]
