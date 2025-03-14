@@ -17,7 +17,7 @@
         "year": "Junior",
         "home-town": "Lexington, KY",
         "favorite-event": "400m and 4x400m",
-        "img": "images/about-us/track-prez.png"
+        "img": "images/about-us/track-prez-pic.png"
     },
     {
         "_id": 3,
@@ -37,7 +37,7 @@
         "year": "Junior",
         "home-town": "Aiken, SC",
         "favorite-event": "5K and 1600 m",
-        "img": "images/about-us/treasurer.png"
+        "img": "images/about-us/treasurer-pic.png"
     },
     {
         "_id": 5,
