@@ -5,8 +5,8 @@
         "name": "Carina Burdick",
         "major": "Excercise Science",
         "year": "Junior",
-        "home-town": "Irmo, SC",
-        "favorite-event": "1600m",
+        "home_town": "Irmo, SC",
+        "favorite_event": "1600m",
         "img": "images/about-us/xc-prez.png"
     },
     {
@@ -15,8 +15,8 @@
         "name": "Sydney Rose",
         "major": "Excercise Science",
         "year": "Junior",
-        "home-town": "Lexington, KY",
-        "favorite-event": "400m and 4x400m",
+        "home_town": "Lexington, KY",
+        "favorite_event": "400m and 4x400m",
         "img": "images/about-us/track-prez-pic.png"
     },
     {
@@ -25,8 +25,8 @@
         "name": "Ellie Toth",
         "major": "Biology",
         "year": "Junior",
-        "home-town": "East Fishkill, NY",
-        "favorite-event": "800m and 1500m",
+        "home_town": "East Fishkill, NY",
+        "favorite_event": "800m and 1500m",
         "img": "images/about-us/vp-pic.png"
     },
     {
@@ -35,8 +35,8 @@
         "name": "Victoria Colon-LaBorde",
         "major": "Chemical Engineering",
         "year": "Junior",
-        "home-town": "Aiken, SC",
-        "favorite-event": "5K and 1600 m",
+        "home_town": "Aiken, SC",
+        "favorite_event": "5K and 1600 m",
         "img": "images/about-us/treasurer-pic.png"
     },
     {
@@ -45,8 +45,8 @@
         "name": "Patrick Champion",
         "major": "Sports Management",
         "year": "Sophomore",
-        "home-town": "Greenville, SC",
-        "favorite-event": "10K",
+        "home_town": "Greenville, SC",
+        "favorite_event": "10K",
         "img": "images/about-us/secretary-pic.png"
     },
     {
@@ -55,8 +55,8 @@
         "name": "Michael Davis",
         "major": "Exercise Science",
         "year": "Senior",
-        "home-town": "Columbia, SC",
-        "favorite-event": "Half Marathon",
+        "home_town": "Columbia, SC",
+        "favorite_event": "Half Marathon",
         "img": "images/about-us/safety-officer1.png"
     },
     {
@@ -65,8 +65,8 @@
         "name": "Bri Davis",
         "major": "Nursing",
         "year": "Junior",
-        "home-town": "Redondo Beach, CA",
-        "favorite-event": "200m",
+        "home_town": "Redondo Beach, CA",
+        "favorite_event": "200m",
         "img": "images/about-us/safety-officer2.png"
     }
 ]

@@ -25,17 +25,47 @@ const showAboutUs = async() => {
         divImg.classList.add("two");
         const img = document.createElement("img");
         img.src = officer.img;
-        section.append(divImg);
         divImg.append(img)
     
         const div = document.createElement("div");
         div.classList.add("about-us-p");
         div.classList.add("three");
-        div.innerText = "hello";
-        section.append(div);
 
+        const h3 = document.createElement("h3");
+        h3.innerText = officer.position;
+        div.append(h3);
+
+        const h4 = document.createElement("h4");
+        h4.innerText = officer.name;
+        div.append(h4);
+
+        const ul = document.createElement("ul");
+        div.append(ul);
+        ul.append(liList("Major", officer.major));
+        ul.append(liList("Year", officer.year));
+        ul.append(liList("Home town", officer.home-town));
+       // ul.append(liList("Favorite Event", officer.favorite-event));
+
+
+
+
+        if(officer._id%2 == 0){
+            section.append(div);
+            section.append(divImg);
+        }
+        else{
+            section.append(divImg);
+            section.append(div); 
+        }
 
     });
 };
+
+const liList = (description, item) =>{
+   const li = document.createElement("li");
+   li.innerHTML = `${description}: ${item}`;
+
+   return li;
+}
 
 showAboutUs();
