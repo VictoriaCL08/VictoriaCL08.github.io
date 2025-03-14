@@ -43,8 +43,8 @@ const showAboutUs = async() => {
         div.append(ul);
         ul.append(liList("Major", officer.major));
         ul.append(liList("Year", officer.year));
-        ul.append(liList("Home town", officer.home-town));
-       // ul.append(liList("Favorite Event", officer.favorite-event));
+        ul.append(liList("Home town", officer.home_town));
+        ul.append(liList("Favorite Event", officer.favorite_event));
 
 
 
