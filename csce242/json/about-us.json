@@ -6,37 +6,67 @@
         "major": "Excercise Science",
         "year": "Junior",
         "home-town": "Irmo, SC",
-        "favorite-event": "1600 m",
+        "favorite-event": "1600m",
         "img": "images/about-us/xc-prez.png"
     },
     {
         "_id": 2,
-        "position": "XC President",
-        "name": "Carina Burdick",
+        "position": "Track President",
+        "name": "Sydney Rose",
         "major": "Excercise Science",
         "year": "Junior",
-        "home-town": "Irmo, SC",
-        "favorite-event": "1600 m",
-        "img": "images/about-us/xc-prez.png"
+        "home-town": "Lexington, KY",
+        "favorite-event": "400m and 4x400m",
+        "img": "images/about-us/track-prez.png"
     },
     {
         "_id": 3,
-        "position": "XC President",
-        "name": "Carina Burdick",
-        "major": "Excercise Science",
+        "position": "Vice President",
+        "name": "Ellie Toth",
+        "major": "Biology",
         "year": "Junior",
-        "home-town": "Irmo, SC",
-        "favorite-event": "1600 m",
-        "img": "images/about-us/xc-prez.png"
+        "home-town": "East Fishkill, NY",
+        "favorite-event": "800m and 1500m",
+        "img": "images/about-us/vp-pic.png"
     },
     {
         "_id": 4,
-        "position": "XC President",
-        "name": "Carina Burdick",
-        "major": "Excercise Science",
+        "position": "Treasurer",
+        "name": "Victoria Colon-LaBorde",
+        "major": "Chemical Engineering",
         "year": "Junior",
-        "home-town": "Irmo, SC",
-        "favorite-event": "1600 m",
-        "img": "images/about-us/xc-prez.png"
+        "home-town": "Aiken, SC",
+        "favorite-event": "5K and 1600 m",
+        "img": "images/about-us/treasurer.png"
+    },
+    {
+        "_id": 5,
+        "position": "Secretary",
+        "name": "Patrick Champion",
+        "major": "Sports Management",
+        "year": "Sophomore",
+        "home-town": "Greenville, SC",
+        "favorite-event": "10K",
+        "img": "images/about-us/secretary-pic.png"
+    },
+    {
+        "_id": 6,
+        "position": "Primary Safety Officer",
+        "name": "Michael Davis",
+        "major": "Exercise Science",
+        "year": "Senior",
+        "home-town": "Columbia, SC",
+        "favorite-event": "Half Marathon",
+        "img": "images/about-us/safety-officer1.png"
+    },
+    {
+        "_id": 7,
+        "position": "Secondary Safety Officer",
+        "name": "Bri Davis",
+        "major": "Nursing",
+        "year": "Junior",
+        "home-town": "Redondo Beach, CA",
+        "favorite-event": "200m",
+        "img": "images/about-us/safety-officer2.png"
     }
 ]
