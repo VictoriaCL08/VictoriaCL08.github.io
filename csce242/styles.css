@@ -48,7 +48,9 @@
 .assignment-image img{
     max-width: 100%;
 }
-
+.setup-assignment p{
+    text-align:center;
+}
 /* Typography */
 body{
     background: url(images/background-nature.jpg);
