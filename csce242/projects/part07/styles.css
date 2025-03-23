@@ -1,0 +1,483 @@
+/*** 
+Things to fix:
+COntact us
+    align text boxes better in larger resolution
+    make footer stick to bottom on larger resolution
+    add dropdown FAQ menu
+
+***/
+:root{
+    --header-footer-color:black;
+    --background-color: #cccccc;
+    --about-us-color:#b7b7b7;
+    --about-us-shadow-color:#6b6b6b;
+    --section-color-1: #73000a;
+    --section-color-2:#cccccc;
+    --table-color-1:rgb(115, 0, 10, 0.5);
+    --table-color-2:#cccccc;
+    --main-font:Arial, Helvetica, sans-serif;
+    --width:80%;
+    --heading-text-color:white;
+    --text-color: black;
+    --hover-color:#CCCCCC;
+    --light-text-color: #dddddd;
+}
+
+body{
+    font-family: var(--main-font);
+    margin:0;
+    background-color: var(--background-color);
+}
+
+.hidden{
+    display: none;
+}
+
+.text-color{
+    color: var(--light-text-color);
+}
+
+/*************************************** Header ************************/
+.header, .footer{
+    background-color: var(--header-footer-color);
+    color: var(--heading-text-color);
+}
+
+.header img{
+    max-width: 75px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right:2%;
+
+
+}
+.header-title h1{
+
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:center;
+}
+.index-main-img img{
+    width: 75%;
+}
+
+/**************************** Main ***********************/
+
+/****  Index ******************/
+/*Carosel*/
+
+
+.slideshow{
+    width:75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.slideshow img{
+    display: block;
+    text-align:center;
+
+   width: 100%
+}
+/*main part of homepage */
+#main-section, #records, #contact-us {
+    width:var(--width);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.index-main, .past-events{
+    padding:5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: var(--section-color-1);
+    border-radius:5px;
+}
+.index-main p{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.index-main-img{
+    padding:5px;
+    text-align:center;
+    margin-top:20px;
+}
+.index-main h3{
+    margin: 5px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px var(--section-color-2);
+    font-size: 20px;
+}
+/******************************************* Schedule Page **********************************/
+
+#table-sched td{
+    padding:5px;
+}
+#weekly-sched{
+    margin: 15px 0 15px;
+    text-align:center;
+
+}
+#semester-sched{
+
+    background-color: var(--section-color-1);
+    border-radius: 5px;
+    text-align:center;
+    margin: 10px;
+    padding: 5px;
+    text-align:center;
+}
+.sched-title{
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+.sched-title h3{
+    margin: 15px 0 15px 0;
+}
+
+.event a{
+    text-decoration: none;
+    text-align:center;
+}
+.img-sched{
+    max-width: 95%;
+}
+.event{
+    background-color: var(--section-color-2);
+    text-align:center;
+    margin: 0.5%;
+    border-radius: 5px;
+    text-align:center; 
+}
+.event img{
+    width: 75%;
+}
+.event h3{
+    border-bottom: none;
+}
+
+
+/*********************************** Past Events and schedule events*************************/
+.past-events h3{
+    padding: 5px 0 5px 10px;
+    font-size: 20px;
+}
+.past-events{
+    text-align: center;
+}
+.past-events img{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px;
+    max-width: 85%;
+}
+.past-events p{
+    text-align: left;
+    padding: 10px;
+}
+
+/*.btn{
+    text-align: right;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: var(--section-color-1);
+    border-radius: 5px;
+}*/
+
+/*********************** CLub records Page *****************************/
+#records h2{
+    text-align:center;
+    font-size: 24px;
+    margin-bottom:5px;
+}
+.table, #table-sched{
+   
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    border-collapse: collapse;
+    width:var(--width);
+    margin: auto;
+    padding: 6px;
+
+}
+
+.table th, .table td, #table-sched th, #table-sched td {
+    border: 1px solid var(--text-color);
+    text-align: center;
+}
+ #weekly-sched-title, .table tr:nth-child(odd){
+    background-color: var(--table-color-1);
+}
+.table tr:nth-child(even){
+    background-color: var(--table-color-2);
+}
+
+
+/**** About Us Page    ********/
+.about-us img{
+    max-width:100%;
+    margin-top: 20px;
+}
+
+.about-us{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: var(--about-us-color);
+    border-radius: 5px;
+    box-shadow:  5px 5px 5px var(--about-us-shadow-color);
+    
+}
+.about-us-p{
+    padding:5px;
+    margin-top: 25px;
+    line-height: 1.75;
+}
+
+.about-us h3{
+    margin-top: 2px;
+    margin-bottom:2px;
+    padding: 2px;
+    text-align:center;
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 1.0;
+
+}
+.about-us h4{
+    font-family: gabriola;
+    text-align:center;
+    border-bottom: solid 1px var(--section-color-2);
+    font-size: 32px;
+    margin:1px;
+    padding: 0;
+    font-weight: lighter;
+}
+#officer-titles{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 80px;
+}
+#officer-titles h2{
+    margin: 35px 0 5px 0;
+}
+#officer-titles hr, .contact-title hr {
+    border: solid 1px var(--text-color);
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+}
+
+
+/*************************************** contact us *****************************/
+#contact-us p{
+    height: 50px;
+}
+.contact-title h3{
+    margin-top: 70px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 28px;
+}
+.contact-form{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.contact-form h3{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 25px 5px 5px 5px;
+}
+
+.textbox, .textbox2{
+    width: 100%;
+    font-size: 18px;
+}
+.textbox{
+    height: 25px;
+}
+.textbox2{
+    min-height: 150px;
+}
+.btn-submit{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 25px;
+}
+.igwrapper{
+
+    position:relative;
+    display: block;
+    text-align: right;
+    width: 70%;
+    margin: 10px auto; 
+}
+.igwrapper blockquote{
+    border:0; 
+    border-radius:3px;  
+    padding:0; 
+    width:99.375%;
+    width:-webkit-calc(100% - 2px); 
+    width:calc(100% - 2px);
+}
+
+/***************************  Footer  **************************/
+.footer-styles{
+    width:var(--width);
+    margin-left: 10%;
+    font-size:16px;    
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.footer-styles h2{
+    margin:0;
+
+}
+.footer-links{
+    text-align: right;
+    margin-right:10%;
+    margin-top:1%;
+    margin-bottom: 1%;
+    padding-right:10px;
+}
+.columns-noflex{
+    display: flex;
+}
+
+/************************************  Navigation  ***********************************/
+#main-nav ul{
+    padding-left:0;
+    margin-top:3%;
+
+}
+#main-nav li{
+    list-style-type: none; /*remove the bullets*/   
+    text-align:center;      
+    background-color:var(--header-footer-color);
+    /*border-bottom: 1px solid var(--heading-text-color); */
+}
+
+#main-nav a{
+    color: var(--heading-text-color); /*change color of links */
+    text-decoration: none; /*remove the underline */
+}
+#main-nav a:hover {
+
+    color: var(--hover-color);
+}
+
+#toggle-nav div{
+    width: 25px;
+    height: 2px;
+    background-color: var(--heading-text-color);
+    margin: 6px 0;
+}
+#toggle-nav{
+    display: block;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.hide-small{
+    display:none;
+}
+ /* small resolutions 
+@media only screen and (max-width: 949px){
+    .about-us-p{
+        max-width: 400px;
+        margin: auto;
+    }
+    #main-nav li{
+        text-decoration: underline;
+    }
+}*/
+/************************* medium resolutions ***********************************/
+   /* @media only screen and (min-width: 700px){
+    .columns{
+        display: flex;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    
+    .event{
+        width: 49%;
+    }
+#main-nav li{
+        border-bottom: 1px solid transparent;
+    }
+
+    #toggle-nav{
+        display: none;
+    }
+    .about-us{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hide-small{
+        display:flex;
+    
+
+ }    }*/
+
+
+/***********************************    Larger resolutions  **************************************/
+@media only screen and (min-width: 800px){
+   #toggle-nav{
+        display: none;
+    }
+    .about-us{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hide-small{
+        display:flex;
+    }
+    .columns{
+        display:flex;
+    }
+    .event{
+        width: 32.3%;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    .one, #main-nav li{
+        flex:1;
+    }
+    #main-nav li{
+        border-bottom: 1px solid transparent;
+    }
+    .two{
+        flex:2;
+    }
+    .three{
+        flex:3;
+    }
+
+    .five{
+        flex:5;
+    }
+
+}

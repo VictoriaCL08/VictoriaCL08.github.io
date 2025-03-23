@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Carolina Club XCTF</title>
+        <link rel="icon" type="image/x-icon" href="images/logo-50x50.png">
+    </head>
+    <body>
+        <header class="header columns">
+            <div class="columns-noflex one header-title">
+                <img src="images/logo-50x50.png" class="one">
+                <h1 class="five">Carolina XCTF Club</h1>
+            </div>
+            <div class="one">
+                <nav id="main-nav">
+                    <div id="toggle-nav">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <ul id="nav-items" class="columns hide-small">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="past-events.html">Past Events</a></li>
+                        <li><a href="club-records.html">Club Records</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <main id="contact-us">
+            <div class="contact-title">
+                <h3>Contact Us</h3>
+                <hr>
+            </div>
+            <section class="columns">
+                <section class="contact-form one"> <!--The code in this section is from https://web3forms.com - javascript part-->
+                    <form method="POST" id="form">
+                        
+                        <input type="hidden" name="access_key" value="aa3d2369-feb8-4934-9456-146e38ec4967">
+                        <div class="columns">
+                            <div class="one contact-form">
+                                <h3>Name</h3>
+                                <input type="text" name="name" class="textbox" required>
+                            </div>
+
+                            <div class="one contact-form">
+                                <h3>Email address</h3>
+                                <input type="email" name="email" class="textbox" required>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form">
+                            <h3>Message</h3>
+                            <textarea name="message" class="textbox2" required></textarea>
+                            <input type="checkbox" name="botcheck" class="hidden" class="textbox2" style="display: none;">
+                        </div>
+                        <button class="contact-form btn-submit" type="submit">Submit</button>
+                    
+                        <div id="result"></div>
+                    
+                    </form>
+
+                </section>
+                <section class="one">
+                    <div class="igwrapper"> <!--Code from https://iframex.com/instagram/?lang=en-->
+                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/carolinaclubxctf/"  data-instgrm-version="14"></blockquote>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <footer class="columns footer one">
+            <div class="two footer-styles">
+                <h2>Carolina Cross Country and Track and Field Club</h2> 
+            </div>
+
+            <div class="footer-links one">
+                <a href="https://www.instagram.com/carolinaclubxctf/?igsh=MWZ3bXMwMWt1dzlxMQ%3D%3D#"><img src="images/instagram-img.png"></a>
+               <!-- <a href="#"><img src="images/50x50-img.png"></a>-->
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script src="contact-us.js"></script>
+        <script async src="https://www.instagram.com/embed.js"></script>
+    </body>
+</html>
