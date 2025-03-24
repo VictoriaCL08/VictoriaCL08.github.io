@@ -324,7 +324,7 @@ body{
     position:relative;
     display: block;
     text-align: right;
-    width: 70%;
+    width: 100%;
     margin: 10px auto; 
 }
 .igwrapper blockquote{
