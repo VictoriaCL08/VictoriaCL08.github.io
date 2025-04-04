@@ -31,7 +31,7 @@
     text-align:center;
 }
 
-.assignments{
+.assignments, .assignments-nohover{
     background-color:bisque;
     padding:5px;
     margin:5px;
@@ -56,6 +56,7 @@
 }
 .links a:hover{
     color: #3b2114;
+    border-bottom: solid 1px #3b2114;
 }
 /* Typography */
 body{
@@ -85,7 +86,7 @@ body{
     .flex-container{
         flex-wrap: wrap;
     }
-    .assignments{
+    .assignments, .assignments-nohover{
         flex:1;
     }
 
