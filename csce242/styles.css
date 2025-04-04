@@ -38,7 +38,7 @@
     border-radius:5px;
     color: #486b00;
     display:block;
-    height:400px;
+    height:350px;
 }
 .assignment-image{
     text-align:center;
@@ -48,8 +48,14 @@
 .assignment-image img{
     max-width: 100%;
 }
-.setup-assignment p{
+.links p{
     text-align:center;
+}
+.links a{
+    color: #486b00;
+}
+.links a:hover{
+    color: #3b2114;
 }
 /* Typography */
 body{
