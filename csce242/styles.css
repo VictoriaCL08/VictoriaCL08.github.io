@@ -80,7 +80,7 @@ body{
         display: flex;
     }
     .nav{
-        max-width:33%;
+        width:33%;
     }
     .flex-container{
         flex-wrap: wrap;
