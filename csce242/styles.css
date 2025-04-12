@@ -48,11 +48,17 @@
 .assignment-image img{
     max-width: 100%;
 }
+
 .links p{
     text-align:center;
 }
+.links{
+    margin-top:70px;
+}
 .links a{
     color: #486b00;
+    font-size:16px;
+    font-weight:bold;
 }
 .links a:hover{
     color: #3b2114;
